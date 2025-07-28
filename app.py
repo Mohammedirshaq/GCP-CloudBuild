@@ -25,7 +25,7 @@ def index():
         <!doctype html>
         <title>Enter Your Details</title>
         <body >
-        <h1>for cloud run : v1 </h1>
+        <h1>for cloud run : v2 </h1>
         <h1>Enter your name and age</h1>
         <form method="POST">
             Name: <input type="text" name="name"><br>
