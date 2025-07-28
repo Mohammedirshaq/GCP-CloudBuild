@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Path to store data
 DATA_FILE = "data.txt"
 
-@app.route('/apk2', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         # Get the name and age from the form
